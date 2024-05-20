@@ -2,13 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 20px;
 }
 
 
 .portfolio-intro{
     padding-bottom: 30px;
     padding-top: 85px;
+    flex: 1;
+    /* padding: 20px; */
+     box-sizing: border-box;
 }
 
 
@@ -18,9 +20,25 @@
     border-radius: 50%;
     border: 2px solid #ccc;
     transition: transform 0.3s, box-shadow 0.3s;
-    
+    flex: 1;
+    padding: 0px;
+    /* box-sizing: border-box; */
 }
 
 .profile:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .side-by-side-container {
+    flex-direction: column;
+  }
+
+  .text-content,
+  .image-content {
+    width: 100%;
+    padding: 10px;
+  }
+}
