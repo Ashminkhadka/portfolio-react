@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+
+.portfolio-intro{
+    font-size: 30px;
+    background: white;
+    padding: 2rem;
+}
+
+.name{
+    font-weight: bold;
+    color:blueviolet;
+}

@@ -1,0 +1,26 @@
+.main-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.portfolio-intro{
+    padding-bottom: 30px;
+    padding-top: 85px;
+}
+
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.profile:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
