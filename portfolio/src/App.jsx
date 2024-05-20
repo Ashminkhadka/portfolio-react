@@ -2,12 +2,12 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './components/Home'
-import About from './components/About'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
 import Resume from './components/Resume'
 import ConnectToMe from './components/ConnectToMe'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Skills from './components/Skills'
+import Education from './components/Education'
 
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/skill" element={<Skills />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/connect" element={<ConnectToMe />} />
       </Routes>

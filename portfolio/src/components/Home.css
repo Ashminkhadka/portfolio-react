@@ -1,22 +1,54 @@
-.main-contents{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+.content{
+  /* margin: 0; */
+  /* left: 0; */
+  right: 0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: antiquewhite;
 }
-
-
 .portfolio-intro{
-    padding-bottom: 30px;
-    padding-top: 85px;
-    flex: 1;
+    margin-top: 9rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top:5rem;
+    padding-left: 7.8rem;
+    /* flex: 1; */
     /* padding: 20px; */
      box-sizing: border-box;
+     background-color: antiquewhite;
 }
 
+.portfolio-intro span{
+  margin:0;
+  font-size: 4.5rem;
+  color: rgb(16, 16, 17);
+  padding-bottom: 0;
+}
+
+.portfolio-intro p{
+  margin:0;
+  padding: 0;
+  font-size: 2rem;
+  display: -webkit-inline-box;
+}
+
+.portfolio-intro p span{
+  font-size: 2.2rem;
+  color: rgb(19, 18, 20);
+}
+.profile-image{
+  display:grid;
+  padding-top: 15rem;
+  /* padding-top: 13.8rem;
+  padding-right: 8rem; */
+  
+}
 
 .profile {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     border: 2px solid #ccc;
     transition: transform 0.3s, box-shadow 0.3s;

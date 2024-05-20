@@ -21,25 +21,20 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/education">Education</NavLink>
             </li>
             <li>
-              <NavLink to="/project">Project</NavLink>
+              <NavLink to="/skill">Skills</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/project">Projects</NavLink>
             </li>
-            <li>
-              <NavLink to="/resume">Resume</NavLink>
-            </li>
-            <li>
-              <button>
+            <button>
                 <span className="button_text">Connect To Me</span>
                 <span className="button_icon">
                   <SiGitconnected/> 
                 </span>
-              </button>
-            </li>
+            </button>
           </ul>
       </div>
       <div className="social-media">

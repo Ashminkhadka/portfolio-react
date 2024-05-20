@@ -4,16 +4,14 @@ import './Home.css'
 
 const Home =()=> {
   return (
-    <div className='main-contents'>
+    <div className='content'>
       <div className='portfolio-intro'>
-        <h1>Welcome to My Portfolio</h1>
-        <p>
-          Hi! I'm <span className='name'>Ashmin Kumar Khadka,</span>
+          <span className='name'> Hi, I'm <br/> 
+            Ashmin Kumar Khadka</span><br/>
+          <p>I am a <span>React Web Developer</span></p>
           <br />
-          a passionate web developer with a knack for  <br/> creating dynamic and responsive web applications.
-          <br />
-          Explore my projects and learn more about my skills and experiences.
-        </p>
+          <p>I am a motivated and versatile individual, always
+            eager to take on <br/>new challenges. </p>
       </div>
       <div className='profile-image'>
           <img src={profile} alt='my profile' className='profile'/>
