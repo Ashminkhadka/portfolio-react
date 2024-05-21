@@ -8,7 +8,7 @@ const Home =()=> {
       <div className='portfolio-intro'>
           <span className='name'> Hi, I'm <br/> 
             Ashmin Kumar Khadka</span><br/>
-          <p>I am a <span>React Web Developer</span></p>
+          <p><span>React Web Developer</span></p>
           <br />
           <p>I am a motivated and versatile individual, always
             eager to take on <br/>new challenges. </p>

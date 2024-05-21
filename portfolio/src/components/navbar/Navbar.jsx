@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaBars } from "react-icons/fa";
+import { NavLink, useNavigate } from "react-router-dom";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { SiGitconnected } from "react-icons/si";
-// import HamburgerMenu from '../HamburgerMenu';
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const navigate = useNavigate();
+
+  const handleClick = () =>{
+    navigate('/connect');
+  };
+
   return (
     <nav className="main-nav">
       <div className="logo">
@@ -29,8 +34,10 @@ const Navbar = () => {
             <li>
               <NavLink to="/project">Projects</NavLink>
             </li>
-            <button>
-                <span className="button_text">Connect To Me</span>
+            <button onClick={handleClick}>
+                <span className="button_text">
+                  Connect To Me
+                </span>
                 <span className="button_icon">
                   <SiGitconnected/> 
                 </span>

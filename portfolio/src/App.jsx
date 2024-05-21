@@ -26,34 +26,4 @@ function App() {
   );
 }
 
-// function App(){
-//   const router = createBrowserRouter([
-//     {
-//       path: "/",
-//       element:<><Navbar/><Home/></>
-//     },
-//     {
-//       path: "/about",
-//       element:<><Navbar/><About/></>
-//     },
-//     {
-//       path: "/projects",
-//       element:<><Navbar/><Projects/></>
-//     },
-//     {
-//       path: "/contact",
-//       element:<><Navbar/><Contact/></>
-//     },
-//     {
-//       path: "/resume",
-//       element:<><Navbar/><Resume/></>
-//     }
-//   ])
-//   return(
-//     <>
-//     <RouterProvider router={router}/>
-//     </>
-//   )
-// }
-
 export default App
