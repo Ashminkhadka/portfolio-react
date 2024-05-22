@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
@@ -9,8 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Skills from './components/Skills'
 import Education from './components/Education'
 
-
-function App() {
+const App =() => {
   return (
     <Router>
       <Navbar/>

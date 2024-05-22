@@ -2,12 +2,15 @@
     background-color: antiquewhite;
     align-items: center;
     text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: solid;
+
 }
 
 .educationContent h1 {
-    padding-top: 12rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-top: 0rem;
+    margin: 0rem;
     font-size: 5rem;
     display: flex;
     justify-content: center;
@@ -24,6 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 0;
 }
 
 .Edu-block {
@@ -39,7 +43,6 @@
 .Edu-block img{
     border-radius: 10px; 
     width:100px;
-    /* margin-right: 20px; */
     float: left;
 }
 

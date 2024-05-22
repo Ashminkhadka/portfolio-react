@@ -1,12 +1,14 @@
 
 .content{
-  /* margin: 0; */
-  /* left: 0; */
-  right: 0;
+  /* right: 0; */
+  max-width: 1550px;
+  margin-bottom: 0;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: antiquewhite;
+  border-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .portfolio-intro{
     margin-top: 9rem;
@@ -28,6 +30,7 @@
 }
 
 .portfolio-intro p{
+  /* text-align: right; */
   margin:0;
   padding: 0;
   font-size: 2rem;
@@ -39,11 +42,11 @@
   color: rgb(19, 18, 20);
 }
 .profile-image{
-  display:grid;
-  padding-top: 15rem;
-  /* padding-top: 13.8rem;
-  padding-right: 8rem; */
-  
+  margin-top: 9rem;
+  margin-left: 0;
+  margin-right: 8rem;
+  padding-top:5rem;
+  padding-left: 7.8rem;  
 }
 
 .profile {

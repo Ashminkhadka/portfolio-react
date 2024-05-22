@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { SiGitconnected } from "react-icons/si";
 
-const Navbar = () => {
+const Navbar = ({setClick}) => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const navigate = useNavigate();
 

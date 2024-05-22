@@ -8,7 +8,6 @@ const Education = () => {
       <div className="educationContent">
         <h1>Education</h1>
       </div>
-
       <div className="para">
         <p>
           My education has been a journey of self-discovery and growth. <br />
