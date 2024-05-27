@@ -1,6 +1,6 @@
-
 .content{
   /* right: 0; */
+  padding-bottom: 8rem;
   max-width: 1550px;
   margin-bottom: 0;
   display:flex;
@@ -52,7 +52,8 @@
 .profile {
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 32% 68% 41% 59% / 18% 35% 65% 82%; 
     border: 2px solid #ccc;
     transition: transform 0.3s, box-shadow 0.3s;
     flex: 1;

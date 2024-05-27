@@ -8,6 +8,9 @@ import ConnectToMe from './components/ConnectToMe'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Skills from './components/Skills'
 import Education from './components/Education'
+import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+// import DownloadButton from './DownloadButton';
 
 const App =() => {
   return (
@@ -21,7 +24,10 @@ const App =() => {
         <Route path="/resume" element={<Resume />} />
         <Route path="/connect" element={<ConnectToMe />} />
       </Routes>
+      <ScrollToTop/>
+      <Footer/>
     </Router>
+    
   );
 }
 

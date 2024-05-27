@@ -1,43 +1,39 @@
 import React from 'react';
+import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import './Skills.css';
 
 const Skills = () => {
-  
-  const styles = {
-    skillMain: {
-      textAlign: 'center',
-      backgroundColor: 'antiquewhite'
-    },
-    skillsContent: {
-      paddingTop: '0rem',
-      marginTop: '0rem',
-      marginBottom: '0',
-      fontSize: '2.4rem',
-      display: 'flex',
-      justifyContent: 'center',
-      fontFamily: 'Arial, sans-serif'
-    },
-    skillContainer: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: '2rem',
-    },
-    skillItems: {
-      border: '1px solid #ccc',
-      borderRadius: '10px',
-      padding: '2rem',
-      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    },
-  };
-
   return (
-    <div style={styles.skillMain}>
-      <div style={styles.skillsContent}>
-        <h1>Skills</h1>
+    <div id="skill" className='skillMain'>
+      <div className='skillsContent'>
+        <h4>Skills</h4>
       </div>
-      <div style={styles.skillContainer}>
-        <div style={styles.skillItems}>
-          <h1>THis is skills page</h1>
+      <div className='para'>
+        <p>Demonstrating proficiency in Frontend, Backend,<br/>
+           and Database development with key technical skills.</p>
+      </div>
+      <div className='skillContainer'>
+        <div className='skillCard'>
+          <h5>Frontend</h5>
+          <div className='skillItem'>
+            <p>
+            <FaReact /> React
+            </p>
+          </div>
+        </div>
+        <div className='skillCard'>
+          <h5>Backend</h5>
+          <div className='skillItem'>
+            <FaNodeJs /> Node.js
+          </div>
+        </div>
+        <div className='skillCard'>
+          <h5>Database</h5>
+          <div className='skillItem'>
+            <FaDatabase /> MongoDB
+            MySQL
+          </div>
+          
         </div>
       </div>
     </div>
@@ -45,4 +41,3 @@ const Skills = () => {
 };
 
 export default Skills;
-

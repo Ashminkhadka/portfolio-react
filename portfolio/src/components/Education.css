@@ -1,15 +1,23 @@
-.edu-main {
+body{
     background-color: antiquewhite;
+    /* margin-top: 8rem;
+    padding-top: 8rem; */
+}
+
+.main{
+    padding-top: 5rem;
+}
+
+.edu-main {
     align-items: center;
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
-    border: solid;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .educationContent h1 {
-    padding-top: 0rem;
+    /* padding-top: 3rem; */
     margin: 0rem;
     font-size: 5rem;
     display: flex;
@@ -31,19 +39,28 @@
 }
 
 .Edu-block {
-    background-color: rgb(247, 248, 235);
+    /* background-color: rgb(247, 248, 235); */
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 20px;
     width: 400px;
     text-align: center;
     border: 1px solid #e0e0e0;
 }
 
-.Edu-block img{
+.Edu-block:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Edu-block .asian {
     border-radius: 10px; 
     width:100px;
-    float: left;
+    /* float: left; */
+}
+
+.Edu-block .new{
+    height: 50px;
 }
 
 .Edu-block h3{
