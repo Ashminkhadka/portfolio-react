@@ -13,8 +13,10 @@ html {
 }
 
 a {
+  justify-content: end;
+  color:black;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   display: flex;
 }
 
@@ -168,6 +170,7 @@ li {
 
 @media (max-width: 1080px) {
   .main-nav {
+    display: flex;
     position: fixed;
     height: 8rem;
     grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
@@ -178,6 +181,28 @@ li {
   .social-media ul {
     height: 8rem;
     display: grid;
+  }
+}
+
+@media (min-width: 996px) and (max-width: 1079px) {
+  .main-nav {
+    position: fixed;
+    height: 7.5rem;
+    grid-template-columns: 1.5rem 3fr 3fr 1.5rem 1.5rem;
+  }
+/* 
+  a {
+    display: flex;
+  } */
+
+  .logo,
+  .menu-link ul,
+  .social-media ul {
+    display: block ruby;
+  }
+
+  .mobile-menu-link {
+    gap: 2rem;
   }
 }
 
@@ -262,14 +287,17 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 6rem;
+    padding-top: 1.5rem;
+    height: 10rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
 
-  .logo,
+  /* .logo,
   .social-media ul {
-    height: 6rem;
-  }
+    height: 8rem;
+  } */
+
+
 
   .social-media {
     height: 6rem;
@@ -279,8 +307,11 @@ li {
   }
 
   .social-media .hamburger-menu {
+    margin-left: 14rem;
+    padding-left: 14rem;
     display: block;
-    font-size: 2.5rem;
+    
+    /* font-size: 3rem; */
   }
 }
 
@@ -311,8 +342,6 @@ li {
     display: block;
     font-size: 2.5rem;
   }
-
-
 
   .hero-section h1 {
     font-size: 3.8rem;

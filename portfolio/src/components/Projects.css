@@ -1,12 +1,13 @@
 .projectMain {
     text-align: center;
     background-color: antiquewhite;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    /* box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1); */
     justify-content: center;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.3);
 }
 
 .projectContent{
-    padding-top: 0rem;
+    padding-top: 1rem;
     margin-top: 0rem;
     margin-bottom: 0;
     font-size: 2.4rem;
@@ -43,7 +44,7 @@
 .project1 .card-image{   
     max-width: 90%;
     border-radius: 10px;
-    margin-left: 2.6rem;
+    margin-right: 2rem;
     text-align: center;
 }
 
@@ -63,5 +64,10 @@
     width: 290px;
     border-radius: 10px;
     text-align: center;
-    margin-left: 3.2rem;
+    margin-right: 2.8rem;
+}
+
+.project3 .card-image{
+    margin-right: 3.5rem;
+    border-radius: 10px;
 }

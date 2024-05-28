@@ -25,7 +25,7 @@ const Home = () => {
           <p>
             I am a motivated and versatile individual, always eager to take on{" "}
             <br />
-            new challenges.
+            new challenges. Passionate Developer, Lifelong Learner,<br/> Crafting Solutions with Code.
           </p>
         </div>
         

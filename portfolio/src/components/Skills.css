@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px;
+  padding: 20px;
   background-color: antiquewhite;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.3);
 }
 
 .skillMain {
@@ -15,38 +15,48 @@
 }
 
 .skillsContent h4 {
-  margin-bottom: 0px;
+  margin-top: 2rem;
+  margin-bottom: 10px;
   font-size: 5rem;
 }
 
-.skillContainer {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.skillCard {
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 200px;
+.para p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.skillCard h5 {
-  margin-bottom: 15px;
-  font-size: 18px;
+.skillContainer {
+  /* display: flex; */
+  height: 130px;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: center;
+}
+
+.skillImages {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .skillItem {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-size: 16px;
 }
 
-.skillItem svg {
-  margin-right: 8px;
+.skillItem img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skillItem p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
