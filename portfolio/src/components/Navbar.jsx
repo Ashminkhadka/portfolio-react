@@ -54,9 +54,6 @@ const Navbar = () => {
             <button className="connectMe" onClick={handleClick}>
               <a href="#connect">
                 <span className="button_text">Connect To Me</span>
-                {/* <span className="button_icon">
-                  <SiGitconnected />
-                </span> */}
               </a>
             </button>
           </li>
@@ -68,14 +65,6 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="social-media">
-        {/* <ul className="social-media-desktop">
-          <a href="https://www.linkedin.com/in/ashmin-khadka-785033287/">
-            <FaLinkedin className="Linkedin" />
-          </a>
-          <a href="">
-            <FaGithub className="Github" />
-          </a>
-        </ul> */}
         <div className="hamburger-menu">
           <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
             <GiHamburgerMenu />

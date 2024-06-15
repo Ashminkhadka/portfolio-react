@@ -315,35 +315,58 @@ li {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 420px) {
+
+  .mobile-menu-link{
+    margin-top: 7rem;
+  }
+  .mobile-menu-link li{
+   padding: 0.2rem 0;
+  }
+
+  .mobile-menu-link button{
+    width: 70px;
+  }
+
+  .mobile-menu-link .resume{
+    padding: 0;
+    width: 70px;
+    text-align: center;
+  }
+
   .main-nav {
-    height: 6rem;
+    padding-top: 1rem;
+    height: 8rem;
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
 
-  .logo,
+  /* .logo,
   .social-media ul {
     height: 6rem;
-  }
+  } */
 
   .logo h2 {
     font-size: 2rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    width: 100%;
   }
 
-  .social-media {
-    padding: 30px;
-    height: 6rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
+  .social-media .hamburger-menu{
+    margin-left: 0;
+    padding-left: 4.5rem;
+    font-size: 30px;
   }
 
-  .social-media .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
+  .mobile-menu-link{
+    padding-left: 0;
+    /* margin-right: 5rem; */
+    /* margin-right: 2rem; */
+    width: 70%;
   }
 
-  .hero-section h1 {
-    font-size: 3.8rem;
+  .mobile-menu-link ul{
+    padding: 1rem;
+    padding-left: 1rem;
   }
 }
